@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* For navigation bar */
+.nav_bar{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nav_bar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.nav_bar a:hover{
+    text-decoration: underline;
+    padding: 10px 10px;
+}
+
+/* for the form */
+div.form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* specifically for input box */
+.ques_box{
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    width: 500px;
+    height: 40px;
+}
+
+.ques_box:focus{
+    outline: none;
+}
+
+input[type=text] {
+    padding: 0px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size:1.25em;
+}
+
+/* specifically for buttons in google search and google image */
+.search_button{
+    font-size:1.25em;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    width: fit-content;
+}
+
+.search_button:hover{
+    border: 1px solid grey;
+}
+
+/* specifically for advanced search button */
+.as_search_button{
+    background-color: blue;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    width: fit-content;
+    opacity: 0.75;
+    float: right;
+}
+
+.as_search_button:hover{
+    opacity: 0.9;
+}
+
+/* for google image logo and text */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.img-bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 35px;
+    color: blue;
+    font-size: 1.25em;
+}
+
+/* for advanced search table */
+table {
+    margin-top: 20px;
+    table-layout: fixed;
+    width: 85%;
+    float: left;
+    text-align: left;
+    border-spacing: 10px;
+}
+
+td{
+    vertical-align: middle;
+}
+
+tr>:nth-child(1){
+    width:20%;
+}
+
+tr>:nth-child(2){
+    width:40%;
+}
+
+tr>:nth-child(3){
+    width:40%;
+}
+
+/* specifically for header of advanced search */
+h1{
+    color: red;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/* for line break */
+hr{
+    border: none;
+    height: 0.5px;
+    color: grey;
+    background-color: grey;
+}
